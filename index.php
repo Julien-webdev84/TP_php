@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+<nav>
+        <ul id="navigation">
+          <li>
+          <a href="contenu.php" title="aller à la section 1">5G</a>
+            <ul>
+          <li><a href="article2" title="aller à la section 2">Cybersécurité</a></li>
+            </ul>
+          </li>
+          <ul>
+          <li><a href="Intelligence artificielle.html" title="aller à la section 3">Intelligence artificielle</a></li>
+          <li><a href="Mobilité.html" title="aller à la section 4">Mobilité</a></li>
+          <li><a href="High-Tech.html" title="aller à la section 5">High-Tech</a></li>
+        </ul>
+        </nav>
 <?php
 
  
