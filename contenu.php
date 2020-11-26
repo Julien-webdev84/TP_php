@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
+
+        <ul id="navigation">
+          <li> <a href="index.html">aller à la section 1>5G</a>
+          <li><a href="5G.html"> aller à la section 2>Cybersécurité</a></li>
+            <li><a href="Mobilité.html" >aller à la section 4>Mobilité</a></li>
+         
+        </ul>
+        </nav>
 
    
    <article>
@@ -15,7 +23,7 @@
 
  <h1>  La Chine a lancé le premier satellite 6G au monde</h1> 
 
- Alors que nous ne savons même pas encore ce qu'est la technologie 6G
+ <p>Alors que nous ne savons même pas encore ce qu'est la technologie 6G
 Le 24 novembre 2020 à 08:10, par Stan Adkens1 commentaire
 
 19PARTAGES	
@@ -58,7 +66,7 @@ Tianyan-5 a été lancé avec des satellites d'observation de la Terre de la soc
 
 
 
-© 2000-2020 - www.developpez.com
+© 2000-2020 - www.developpez.com</p> 
     
     </article>
     
@@ -72,7 +80,7 @@ Le 18 novembre 2020 à 10:32, par Sandra Coret0 commentaire
 
 0PARTAGES	
 [Voter pour] 2  	[Voter contre] 0 
-La proportion des dépenses informatiques des entreprises consacrées au cloud computing public continue d'augmenter
+<p> La proportion des dépenses informatiques des entreprises consacrées au cloud computing public continue d'augmenter
 
 Selon Gartner, Inc., les dépenses mondiales des utilisateurs finals pour les services publics de cloud devraient augmenter de 18,4 % en 2021 pour atteindre 304,9 milliards de dollars, contre 257,5 milliards en 2020.
 
@@ -92,7 +100,7 @@ En fait, les données d'une récente enquête Gartner indiquent que près de 70 
 Alors que les entreprises augmentent leurs investissements dans la mobilité, la collaboration et d'autres technologies et infrastructures de travail à distance, le Gartner prévoit que la croissance du cloud public sera soutenue jusqu'en 2024. La tendance croissante des fournisseurs de services de cloud à s'associer à des entreprises de télécommunications pour étendre leur portée et soutenir une main-d'œuvre hybride pourrait également entraîner une nouvelle croissance du marché.
 
 "Alors que les DSI réfléchissent de manière plus stratégique à la manière de jeter les bases pour soutenir un retour à la croissance, il est clair que le passage au numérique et aux services associés jouera un grand rôle pour les organisations à l'avenir", a déclaré M. Nag. "L'adoption du cloud devient donc un moyen important de rester en tête dans un monde post-COVID-19 axé sur l'agilité et les points de contact numériques".
-
+</p>
 
     </article>
 </body>
