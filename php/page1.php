@@ -1,10 +1,27 @@
 <?php 
 require_once "articles.php";
+var_dump($articles);
+
+$html =" ";
+
+$len =sizeof($articles);
+for($i = 0;$i<$len ; $i++){
+
+  $html .= "<article><h2>".$articles[$i]["titre"] . "</h2>";
+  $html .= "<p class=\"para1\"> " . $articles[$i]["description"] . "</p>";
+  $html .= "<div class=\"art1\"><div class=\"img-article1\"> src=\"img/5g.jpg" . $articles[$i]["image"] . "\" alt=\"\"></div></div>";
+ 
+   }
+  
+   
 
 ?>
 
-        <h2>  La Chine a lancé le premier satellite 6G au monde</h1> 
-       
+        
+        <? = $html ?>;
+        
+          <article>
+         <h2>  La Chine a lancé le premier satellite 6G au monde</h2> 
         <p class="para1">Alors que nous ne savons même pas encore ce qu'est la technologie 6G
        Le 24 novembre 2020 à 08:10, par Stan Adkens1 commentaire
        
@@ -39,13 +56,13 @@ require_once "articles.php";
       </p> 
          
        <div class="art1"  >
-        <img class="img-article1" src="5g.jpg" alt="">
+        <img class="img-article1" src="img/5G.jpg" alt="">
       </div>
      
 
 
            </article>
-          </div>
+         
            
          
          
@@ -85,5 +102,3 @@ require_once "articles.php";
       </div>
            </article>
           </div>
-</body>
-</html>
