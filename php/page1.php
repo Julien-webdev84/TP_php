@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <body>
-      <nav>
-      <ul class="navigation">
-        <li> <a href="index.html">Accueil</a>
-        <li><a href="5G.html">5G</li>
-          <li><a href="Mobilité.html" >Mobilité</a></li>
-       
-      </ul>
-      </nav>
-      <div class="content">  
-        <div class="article1"> 
-      <article>
-    
+<?php 
+require_once "articles.php";
 
-        <h1>  La Chine a lancé le premier satellite 6G au monde</h1> 
+?>
+
+        <h2>  La Chine a lancé le premier satellite 6G au monde</h1> 
        
         <p class="para1">Alors que nous ne savons même pas encore ce qu'est la technologie 6G
        Le 24 novembre 2020 à 08:10, par Stan Adkens1 commentaire
@@ -52,7 +34,9 @@
        
        
        
-       © 2000-2020 - www.developpez.com</p> 
+       <p> © 2000-2020 - www.developpez.com_create_guid</p>
+      
+      </p> 
          
        <div class="art1"  >
         <img class="img-article1" src="5g.jpg" alt="">
@@ -69,12 +53,11 @@
            <article>
            
            
-       <h1> Une augmentation de 18 % des dépenses des utilisateurs finals du cloud public dans le monde prévue en 2021</h1>
+       <h2> Une augmentation de 18 % des dépenses des utilisateurs finals du cloud public dans le monde prévue en 2021</h1>
        Par Gartner
-       Le 18 novembre 2020 à 10:32, par Sandra Coret0 commentaire
+       <p> Le 18 novembre 2020 à 10:32, par Sandra Coret0 commentaire</p>
        
-       0PARTAGES	
-       [Voter pour] 2  	[Voter contre] 0 
+       
        <p class="para2"> La proportion des dépenses informatiques des entreprises consacrées au cloud computing public continue d'augmenter
        
        Selon Gartner, Inc., les dépenses mondiales des utilisateurs finals pour les services publics de cloud devraient augmenter de 18,4 % en 2021 pour atteindre 304,9 milliards de dollars, contre 257,5 milliards en 2020.
